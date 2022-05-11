@@ -1,0 +1,28 @@
+.test img {
+    width: 160px;
+    animation-name: move;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+ @keyframes move {
+    0% {
+        left: 0; top: 0; transform:rotate(0deg);
+    }
+    50% {
+        top: 0; left: 90%; transform:rotate(0deg);
+    }
+    51% {
+        top: 0; left: 90%; transform:rotatey(180deg);
+    }
+    100% {
+        top: 0;left: 0; transform:rotatey(180deg);
+    }
+} 
+
+
+
+
+
+
+
